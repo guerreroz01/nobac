@@ -1,13 +1,19 @@
 import Image from "next/image";
 import React from "react";
-import { appleImg, bagImg, searchImg } from "@/utils";
+import { logoImg, bagImg, searchImg } from "@/utils";
 import { navLists } from "@/constants";
 
 export default function Navbar() {
   return (
     <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center">
       <nav className="flex w-full screen-max-width">
-        <Image src={appleImg} alt="logo" width={14} height={18} />
+        <Image
+          src={logoImg}
+          alt="logo"
+          width={24}
+          height={24}
+          style={{ color: "white" }}
+        />
 
         <div className="flex flex-1 justify-center max-sm:hidden">
           <ul className="flex">

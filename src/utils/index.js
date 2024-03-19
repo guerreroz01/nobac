@@ -19,6 +19,7 @@ import right from "../../public/assets/images/right.svg";
 import replay from "../../public/assets/images/replay.svg";
 import play from "../../public/assets/images/play.svg";
 import pause from "../../public/assets/images/pause.svg";
+import logo from "../../public/assets/images/logo.svg";
 
 import yellow from "../../public/assets/images/yellow.jpg";
 import blue from "../../public/assets/images/blue.jpg";
@@ -46,6 +47,7 @@ export const rightImg = right;
 export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
+export const logoImg = logo;
 
 export const yellowImg = yellow;
 export const blueImg = blue;
