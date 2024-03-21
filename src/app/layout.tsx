@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Niconne } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const niconne = Niconne({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nobac",
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" type="image/svg+xml" href="/assets/images/apple.svg" />
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className + inter.className}>{children}</body>
     </html>
   );
 }

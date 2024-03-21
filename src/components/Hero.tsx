@@ -46,8 +46,17 @@ function Hero() {
   return (
     <section className="w-full nav-height bg-black relative">
       <div className="h-5/6 w-full flex-center flex-col">
-        <p id="hero" className="hero-title absolute top-10"></p>
-        <div className="md:w-8/12 w-9/12">
+        <p id="hero" className="hero-title absolute top-10">
+          D
+          <span
+            className="text-xl lg:text-4xl text-[#A5B85E]"
+            style={{ fontFamily: "cursive", fontStyle: "italic" }}
+          >
+            e
+          </span>
+          NTOK <span className="text-sm">presents</span>
+        </p>
+        <div className="md:w-10/12 lg:w-8/12 w-10/12">
           <video
             className="pointer-events-none"
             autoPlay
