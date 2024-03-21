@@ -49,7 +49,7 @@ function Hero() {
         <p id="hero" className="hero-title absolute top-10">
           D
           <span
-            className="text-xl lg:text-4xl text-[#A5B85E]"
+            className="text-[1.3rem] md:text-[2.1rem] lg:text-4xl text-[#A5B85E]"
             style={{ fontFamily: "cursive", fontStyle: "italic" }}
           >
             e
