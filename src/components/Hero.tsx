@@ -46,10 +46,10 @@ function Hero() {
   return (
     <section className="w-full nav-height bg-black relative">
       <div className="h-5/6 w-full flex-center flex-col">
-        <p id="hero" className="hero-title absolute top-20">
+        <p id="hero" className="hero-title absolute top-10">
           DENTOK presents
         </p>
-        <div className="md:w-8/12 w-6/12">
+        <div className="md:w-8/12 w-10/12">
           <video
             className="pointer-events-none"
             autoPlay
@@ -68,7 +68,7 @@ function Hero() {
         <Link className="btn" href="#highlights">
           Comprar
         </Link>
-        <p className="font-normal text-lg">por sólo 50€</p>
+        <p className="font-normal text-md">por sólo 50€</p>
       </div>
     </section>
   );
