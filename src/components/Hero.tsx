@@ -2,14 +2,14 @@
 import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { heroVideo, smallHeroVideo } from "@/utils";
+import { novacHeroVideo, smallHeroVideo } from "@/utils";
 import Link from "next/link";
 
 function Hero() {
   const [videoSrc, setVideoSrc] = useState(
     typeof window !== "undefined" && window.innerWidth < 760
       ? smallHeroVideo
-      : heroVideo
+      : novacHeroVideo
   );
 
   const handleVideoSrcSet = () => {
@@ -46,10 +46,10 @@ function Hero() {
   return (
     <section className="w-full nav-height bg-black relative">
       <div className="h-5/6 w-full flex-center flex-col">
-        <p id="hero" className="hero-title">
+        <p id="hero" className="hero-title absolute top-20">
           DENTOK presents
         </p>
-        <div className="md:w-10/12 w-9/12">
+        <div className="md:w-8/12 w-6/12">
           <video
             className="pointer-events-none"
             autoPlay

@@ -3,6 +3,7 @@ import hero from "../../public/assets/images/hero.jpeg";
 export const heroImg = hero;
 
 import hmv from "../../public/assets/videos/hero.mp4";
+import nhv from "../../public/assets/videos/nobac_hero.mp4";
 import smallmv from "../../public/assets/videos/smallHero.mp4";
 import highlightFirstmv from "../../public/assets/videos/highlight-first.mp4";
 import highlightSectmv from "../../public/assets/videos/hightlight-third.mp4";
@@ -31,6 +32,7 @@ import chip from "../../public/assets/images/chip.jpeg";
 import frame from "../../public/assets/images/frame.png";
 
 export const heroVideo = hmv;
+export const novacHeroVideo = nhv;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
 export const highlightSecondVideo = highlightSectmv;
