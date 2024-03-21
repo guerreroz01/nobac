@@ -31,7 +31,7 @@ import explore2 from "../../public/assets/images/explore2.jpg";
 import chip from "../../public/assets/images/chip.jpeg";
 import frame from "../../public/assets/images/frame.png";
 
-export const heroVideo = hmv;
+export const nobacHeroVideo = hmv;
 export const novacHeroVideo = nhv;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;

@@ -2,21 +2,21 @@
 import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { novacHeroVideo, smallHeroVideo } from "@/utils";
+import { nobacHeroVideo, smallHeroVideo } from "@/utils";
 import Link from "next/link";
 
 function Hero() {
   const [videoSrc, setVideoSrc] = useState(
     typeof window !== "undefined" && window.innerWidth < 760
       ? smallHeroVideo
-      : novacHeroVideo
+      : nobacHeroVideo
   );
 
   const handleVideoSrcSet = () => {
     if (window.innerWidth < 760) {
       setVideoSrc(smallHeroVideo);
     } else {
-      setVideoSrc(heroVideo);
+      setVideoSrc(nobacHeroVideo);
     }
   };
 
