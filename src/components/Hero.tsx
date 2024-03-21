@@ -49,7 +49,7 @@ function Hero() {
         <p id="hero" className="hero-title absolute top-10">
           DENTOK presents
         </p>
-        <div className="md:w-8/12 w-10/12">
+        <div className="md:w-8/12 w-9/12">
           <video
             className="pointer-events-none"
             autoPlay
