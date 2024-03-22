@@ -44,7 +44,7 @@ function ModelView({
 
       <PerspectiveCamera
         makeDefault
-        position={index === 1 ? [1, 0, 4] : [0, 0, 5]}
+        position={index === 1 ? [0, 0, 4] : [0, 0, 5]}
       />
 
       <Lights />
@@ -68,14 +68,14 @@ function ModelView({
           {index === 1 ? (
             <Nobac
               scale={
-                index === 1 ? [0.025, 0.025, 0.025] : [0.025, 0.025, 0.025]
+                index === 1 ? [0.019, 0.019, 0.019] : [0.025, 0.025, 0.025]
               }
               item={item}
               size={size}
             />
           ) : (
             <NobacOpen
-              scale={index === 1 ? [0.025, 0.025, 0.025] : [0.02, 0.02, 0.02]}
+              scale={index === 1 ? [0.022, 0.022, 0.022] : [0.02, 0.02, 0.02]}
               item={item}
               size={size}
             />
