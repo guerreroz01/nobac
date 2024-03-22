@@ -40,9 +40,12 @@ function ModelView({
       } z-50`}
     >
       {/* Ambient Light */}
-      <ambientLight intensity={0.3} />
+      <ambientLight intensity={0.2} />
 
-      <PerspectiveCamera makeDefault position={[0, 0, 4]} />
+      <PerspectiveCamera
+        makeDefault
+        position={index === 1 ? [1, 0, 4] : [0, 0, 5]}
+      />
 
       <Lights />
 
@@ -59,7 +62,7 @@ function ModelView({
       <group
         ref={groupRef}
         name={index === 1 ? "small" : "large"}
-        position={[0, 0, 0]}
+        position={[0, index === 1 ? 0 : -1, 0]}
       >
         <Suspense fallback={<Loader />}>
           {index === 1 ? (

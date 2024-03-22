@@ -50,25 +50,25 @@ export const models = [
   {
     id: 1,
     title: "Nobac Natural",
-    color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
+    color: ["#E1E1E1", "#ffe7b9", "#6f6c64"],
     img: yellowImg,
   },
   {
     id: 2,
     title: "Nobac Color Black",
-    color: ["#53596E", "#6395ff", "#21242e"],
+    color: ["#494949", "#6395ff", "#21242e"],
     img: blueImg,
   },
   {
     id: 3,
     title: "Nobac Color Pink",
-    color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
+    color: ["#FF6AD2", "#ffffff", "#C9C8C2"],
     img: whiteImg,
   },
   {
     id: 4,
     title: "Nobac Color Blue",
-    color: ["#454749", "#3b3b3b", "#181819"],
+    color: ["#08E1FF", "#3b3b3b", "#181819"],
     img: blackImg,
   },
 ];
