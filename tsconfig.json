@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/utils/index.js",
-    "src/utils/animations.js"
+    "src/utils/animations.js",
+    "src/components/Nobac.jsx"
   ],
   "exclude": ["node_modules"]
 }
