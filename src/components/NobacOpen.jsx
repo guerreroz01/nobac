@@ -14,65 +14,349 @@ export default function Model(props) {
         receiveShadow
         geometry={nodes.tapa.geometry}
         material={materials.main}
-        position={[33.555, 49.408, -30.017]}
-        rotation={[-1.171, -0.132, -0.464]}
+        position={[8.414, 17.717, -44.842]}
+        rotation={[-1.618, 0.019, -0.382]}
       >
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.cristal.geometry}
           material={materials.glass}
-          position={[0.002, 16.42, 46.133]}
+          position={[0.002, 14.08, 46.132]}
           rotation={[0.001, 0, 0]}
           scale={39.05}
         />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve001.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve002.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve003.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve004.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve005.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve006.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve008.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve009.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve010.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve011.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve012.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve013.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve014.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve015.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve016.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve017.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve018.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve019.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve020.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve021.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve022.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve023.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve024.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve025.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve026.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve027.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve028.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve029.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve030.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve031.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve032.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve033.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve034.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Curve035.geometry}
+          material={materials["SVGMat.001"]}
+          position={[-18.999, 16.916, 79.748]}
+          scale={352.402}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.TM.geometry}
+          material={nodes.TM.material}
+          position={[18.583, 16.495, 70.266]}
+          scale={0.085}
+        />
       </mesh>
-      <group position={[14.136, 15.855, 2.736]} rotation={[0.586, -0.441, 0.2]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Cube002.geometry}
-          material={materials["Material.004"]}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Cube002_1.geometry}
-          material={materials.leds}
-        />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.paredes.geometry}
+        material={materials.main}
+        position={[-9.176, -8.413, -3.13]}
+        rotation={[0.379, -0.358, 0.139]}
+        scale={[47, 21.3, 47]}
+      >
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.base001.geometry}
           material={materials.Material}
-          position={[-0.148, -11.731, -2.789]}
-          scale={[47.154, 21.37, 47.154]}
+          position={[0.013, -0.562, -0.097]}
+          scale={1.003}
         />
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.base_de_goma.geometry}
           material={materials["Material.001"]}
-          position={[35.189, 4.89, 23.944]}
-          scale={[1, 1.117, 1]}
+          position={[0.765, 0.218, 0.472]}
+          scale={[0.021, 0.052, 0.021]}
         />
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.boton001.geometry}
           material={materials.main}
-          position={[-0.148, 5.805, 44.552]}
-          scale={0.984}
+          position={[0.013, 0.261, 0.91]}
+          scale={[0.021, 0.046, 0.021]}
         />
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.boton_encendido.geometry}
           material={materials["Material.003"]}
-          position={[24.49, 16.308, -26.334]}
-          scale={[1.422, 2.193, 1.44]}
+          position={[0.537, 0.754, -0.598]}
+          scale={[0.03, 0.103, 0.031]}
         />
-        <group position={[9.865, 9.613, -30.371]}>
+        <group position={[0.226, 0.44, -0.684]} scale={[0.021, 0.047, 0.021]}>
           <mesh
             castShadow
             receiveShadow
@@ -86,10 +370,7 @@ export default function Model(props) {
             material={materials["Material.003"]}
           />
         </group>
-        <group
-          position={[-0.148, -12.371, -2.927]}
-          scale={[20.706, 0.843, 20.706]}
-        >
+        <group position={[0.013, -0.592, -0.1]} scale={[0.441, 0.04, 0.441]}>
           <mesh
             castShadow
             receiveShadow
@@ -108,372 +389,64 @@ export default function Model(props) {
           receiveShadow
           geometry={nodes.espejo.geometry}
           material={materials["Light Metal"]}
-          position={[-0.169, -8.101, -13.485]}
-          scale={[-44.456, -45.706, -46.134]}
+          position={[0.013, -0.392, -0.325]}
+          scale={[-0.946, -2.146, -0.982]}
         />
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.fondo_puerto.geometry}
           material={materials["Material.002"]}
-          position={[-44.223, 0.866, -23.16]}
+          position={[-0.925, 0.029, -0.53]}
+          scale={[0.021, 0.047, 0.021]}
         />
+        <group position={[0.016, -0.011, -0.038]} scale={[0.021, 0.047, 0.021]}>
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.Cube002.geometry}
+            material={materials["Material.004"]}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.Cube002_1.geometry}
+            material={materials.leds}
+          />
+        </group>
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.metal_puerto.geometry}
           material={materials["Light Metal"]}
-          position={[-44.597, 0.866, -23.128]}
-          scale={[0.931, 0.97, 0.931]}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.paredes.geometry}
-          material={materials.main}
-          position={[-0.76, 0.243, 1.772]}
-          scale={[47, 21.3, 47]}
+          position={[-0.933, 0.029, -0.53]}
+          scale={[0.02, 0.046, 0.02]}
         />
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.pines_de_carga.geometry}
           material={materials.Brass}
-          position={[-44.498, 1.068, -21.828]}
-          scale={0.982}
+          position={[-0.931, 0.039, -0.502]}
+          scale={[0.021, 0.046, 0.021]}
         />
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.puerto.geometry}
           material={materials["Material.002"]}
-          position={[-43.925, 1.063, -21.748]}
-          scale={[1, 3.74, 0.288]}
+          position={[-0.918, 0.038, -0.5]}
+          scale={[0.021, 0.176, 0.006]}
         />
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.soporte_lateral.geometry}
           material={materials.main}
-          position={[34.345, 4.107, -7.087]}
-          scale={[10.238, 14.624, 12.313]}
+          position={[0.747, 0.181, -0.188]}
+          scale={[0.218, 0.687, 0.262]}
         />
-      </group>
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve001.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve002.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve003.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve004.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve005.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve006.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-19, 26.414, 30.168]}
-        rotation={[0.193, 0, 0]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve008.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve009.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve010.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve011.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.34, 26.035, 29.402]}
-        rotation={[0.374, -0.47, 0.106]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve012.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve013.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve014.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve015.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve016.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve017.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve018.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve019.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve020.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve021.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve022.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve023.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve024.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve025.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve026.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve027.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve028.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve029.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve030.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve031.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve032.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve033.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve034.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Curve035.geometry}
-        material={materials["SVGMat.001"]}
-        position={[-20.36, 25.423, 29.353]}
-        rotation={[0.586, -0.441, 0.2]}
-        scale={352.402}
-      />
+      </mesh>
     </group>
   );
 }

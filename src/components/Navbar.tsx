@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { logoImg, bagImg, searchImg } from "@/utils";
+import { logoImg, bagImg, searchImg, nobacCloseImg } from "@/utils";
 import { navLists } from "@/constants";
 
 export default function Navbar() {

@@ -75,7 +75,6 @@ function Hero() {
         <Link className="btn" href="#highlights">
           Comprar
         </Link>
-        <p className="font-normal text-md">por sólo 50€</p>
       </div>
     </section>
   );

@@ -3,13 +3,14 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ModelView from "./ModelView";
 import { useEffect, useRef, useState } from "react";
-import { yellowImg } from "../utils";
+import { nobacCloseImg, yellowImg } from "../utils";
 
 import * as THREE from "three";
 import { Canvas, extend } from "@react-three/fiber";
 import { View } from "@react-three/drei";
 import { models, sizes } from "../constants";
 import { animateWithGsapTimeline } from "../utils/animations";
+import Image from "next/image";
 
 const Model = () => {
   const [size, setSize] = useState("small");
@@ -145,11 +146,16 @@ const Model = () => {
                   className="size-btn"
                   style={{
                     backgroundColor: size === value ? "white" : "transparent",
-                    color: size === value ? "black" : "white",
+                    color: size === value ? "green" : "white",
                   }}
                   onClick={() => setSize(value)}
                 >
-                  {label}
+                  <Image
+                    src={nobacCloseImg}
+                    width={14}
+                    height={14}
+                    alt={"close or open"}
+                  />
                 </span>
               ))}
             </button>

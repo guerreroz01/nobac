@@ -42,10 +42,7 @@ function ModelView({
       {/* Ambient Light */}
       <ambientLight intensity={0.3} />
 
-      <PerspectiveCamera
-        makeDefault
-        position={index === 1 ? [0, 0, 4] : [0, 0, 5]}
-      />
+      <PerspectiveCamera makeDefault position={[0, 0, 4]} />
 
       <Lights />
 
@@ -62,23 +59,13 @@ function ModelView({
       <group
         ref={groupRef}
         name={index === 1 ? "small" : "large"}
-        position={[0, index === 1 ? 0 : -1, 0]}
+        position={[0, 0, 0]}
       >
         <Suspense fallback={<Loader />}>
           {index === 1 ? (
-            <Nobac
-              scale={
-                index === 1 ? [0.019, 0.019, 0.019] : [0.025, 0.025, 0.025]
-              }
-              item={item}
-              size={size}
-            />
+            <Nobac scale={[0.01, 0.01, 0.01]} item={item} size={size} />
           ) : (
-            <NobacOpen
-              scale={index === 1 ? [0.022, 0.022, 0.022] : [0.02, 0.02, 0.02]}
-              item={item}
-              size={size}
-            />
+            <NobacOpen scale={[0.011, 0.011, 0.011]} item={item} size={size} />
           )}
         </Suspense>
       </group>

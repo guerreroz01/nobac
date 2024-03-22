@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/svg+xml" href="/assets/images/apple.svg" />
+      <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
       <body className={inter.className}>{children}</body>
     </html>
   );
