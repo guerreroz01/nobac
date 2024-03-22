@@ -21,6 +21,7 @@ import replay from "../../public/assets/images/replay.svg";
 import play from "../../public/assets/images/play.svg";
 import pause from "../../public/assets/images/pause.svg";
 import nobacClose from "../../public/assets/images/nobac_close.svg";
+import nobacOpen from "../../public/assets/images/nobac_open.svg";
 import logo from "../../public/assets/logo.svg";
 
 import yellow from "../../public/assets/images/yellow.jpg";
@@ -51,6 +52,7 @@ export const playImg = play;
 export const pauseImg = pause;
 export const logoImg = logo;
 export const nobacCloseImg = nobacClose;
+export const nobacOpenImg = nobacOpen;
 
 export const yellowImg = yellow;
 export const blueImg = blue;

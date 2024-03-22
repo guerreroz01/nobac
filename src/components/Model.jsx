@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ModelView from "./ModelView";
 import { useEffect, useRef, useState } from "react";
-import { nobacCloseImg, yellowImg } from "../utils";
+import { nobacCloseImg, nobacOpenImg, yellowImg } from "../utils";
 
 import * as THREE from "three";
 import { Canvas, extend } from "@react-three/fiber";
@@ -16,7 +16,7 @@ const Model = () => {
   const [size, setSize] = useState("small");
   const [model, setModel] = useState({
     title: "Nobac Natural",
-    color: ["#8F8A81", "#FFE7B9", "#6F6C64"],
+    color: ["#F0F0F0", "#FFE7B9", "#6F6C64"],
     img: yellowImg,
   });
 
@@ -140,18 +140,18 @@ const Model = () => {
             </ul>
 
             <button className="size-btn-container">
-              {sizes.map(({ label, value }) => (
+              {sizes.map(({ label, value, image }) => (
                 <span
                   key={label}
                   className="size-btn"
                   style={{
                     backgroundColor: size === value ? "white" : "transparent",
-                    color: size === value ? "green" : "white",
+                    color: size === value ? "black" : "white",
                   }}
                   onClick={() => setSize(value)}
                 >
                   <Image
-                    src={nobacCloseImg}
+                    src={image}
                     width={14}
                     height={14}
                     alt={"close or open"}

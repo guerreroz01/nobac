@@ -5,6 +5,8 @@ import {
   highlightFourthVideo,
   highlightSecondVideo,
   highlightThirdVideo,
+  nobacCloseImg,
+  nobacOpenImg,
   whiteImg,
   yellowImg,
 } from "../utils";
@@ -50,7 +52,7 @@ export const models = [
   {
     id: 1,
     title: "Nobac Natural",
-    color: ["#E1E1E1", "#ffe7b9", "#6f6c64"],
+    color: ["#F0F0F0", "#ffe7b9", "#6f6c64"],
     img: yellowImg,
   },
   {
@@ -74,8 +76,8 @@ export const models = [
 ];
 
 export const sizes = [
-  { label: "C", value: "small" },
-  { label: "O", value: "large" },
+  { label: "C", value: "small", image: nobacCloseImg },
+  { label: "O", value: "large", image: nobacOpenImg },
 ];
 
 export const footerLinks = [
