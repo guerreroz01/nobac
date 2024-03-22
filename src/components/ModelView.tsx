@@ -40,7 +40,7 @@ function ModelView({
       } `}
     >
       {/* Ambient Light */}
-      <ambientLight intensity={0.2} />
+      <ambientLight intensity={0.3} />
 
       <PerspectiveCamera
         makeDefault
