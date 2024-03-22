@@ -28,7 +28,8 @@
     ".next/types/**/*.ts",
     "src/utils/index.js",
     "src/utils/animations.js",
-    "src/components/Nobac.jsx"
+    "src/components/Nobac.jsx",
+    "src/components/Model.jsx"
   ],
   "exclude": ["node_modules"]
 }
