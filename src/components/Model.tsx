@@ -63,7 +63,7 @@ const Model = () => {
           Take a closer look.
         </h1>
 
-        <div className="flex flex-col items-center mt-5">
+        <div id="canvas-root" className="flex flex-col items-center mt-5">
           <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
             <ModelView
               index={1}
@@ -93,8 +93,9 @@ const Model = () => {
                 left: 0,
                 right: 0,
                 overflow: "hidden",
+                touchAction: "auto",
               }}
-              eventSource={document.getElementById("root")!}
+              eventSource={document.getElementById("canvas-root")!}
             >
               <View.Port />
             </Canvas>
