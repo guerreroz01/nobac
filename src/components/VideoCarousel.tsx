@@ -148,28 +148,6 @@ const VideoCarousel = () => {
     e: React.SyntheticEvent<HTMLVideoElement, Event>
   ) => setLoadedData((prev) => [...prev, i]);
 
-  const handleGoTo = (i: number) => {
-    // Pause the currently playing video if it is playing
-    if (isPlaying) {
-      const currentVideo = videoRef.current[videoId];
-      currentVideo.pause();
-      currentVideo.currentTime = 0;
-    }
-
-    // Reset the progress bar width to 0 for all spans
-    videoSpanRef.current.forEach((span) => {
-      gsap.to(span, { width: "0%", duration: 0 });
-    });
-
-    setVideo((prev) => ({
-      videoId: i,
-      startPlay: true,
-      isEnd: false,
-      isPlaying: true,
-      isLastVideo: false,
-    }));
-  };
-
   if (typeof window == "undefined") {
     return null;
   }
@@ -206,7 +184,7 @@ const VideoCarousel = () => {
 
               <div className="absolute top-12 left-[5%] z-10">
                 {list.textLists.map((text, j) => (
-                  <p key={j} className="md:text-2xl text-md font-medium">
+                  <p key={j} className="md:text-2xl text-sm font-medium">
                     {text}
                   </p>
                 ))}
@@ -223,7 +201,7 @@ const VideoCarousel = () => {
               key={i}
               className="mx-2 w-3 h-3 bg-gray-200 rounded-full relative cursor-pointer"
               ref={(el) => (videoDivRef.current[i] = el!)}
-              onClick={() => handleGoTo(i)}
+            
             >
               <span
                 className="absolute h-full w-full rounded-full"

@@ -26,11 +26,11 @@ export default function Highlights() {
       <div className="screen-max-width ">
         <div className="mb-12 w-full md:flex items-end justify-between">
           <h1 id="title" className="section-heading">
-            Get the highlights.
+            Cononoce los beneficios..
           </h1>
-          <div className="flex flex-wrap items-end gap-5">
+          <div className="flex flex-wrap items-end md:gap-5 gap-2">
             <p className="link">
-              Watch the film
+              Mira una demostración
               <Image
                 src={watchImg}
                 alt="watch"
@@ -40,7 +40,7 @@ export default function Highlights() {
               />
             </p>
             <p className="link">
-              Watch the event
+              Consigue el tuyo ahora
               <Image
                 src={rightImg}
                 alt="watch"

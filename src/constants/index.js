@@ -17,9 +17,9 @@ export const hightlightsSlides = [
   {
     id: 1,
     textLists: [
-      "La boca está llena de bacterias",
-      "que pueden llegar a enfermarte",
-      "Eliminalas con Nobac",
+      "99,9% de esterilización",
+      "con tan sólo 3 minutos",
+      "UV tipo C",
     ],
     video: highlightFirstVideo,
     videoDuration: 4,
