@@ -39,7 +39,7 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-[#00D206] my-5 hover:bg-transparent border border-transparent hover:border hover:text-[#00D206] hover:border-[#00D206];
+    @apply px-5 py-2 rounded-3xl bg-[#758342] my-5 hover:bg-transparent border border-transparent hover:border hover:text-[#758342] hover:border-[#758342];
   }
 
   .color-container {

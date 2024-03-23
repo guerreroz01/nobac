@@ -17,9 +17,9 @@ export const hightlightsSlides = [
   {
     id: 1,
     textLists: [
-      "Enter A17 Pro.",
-      "Game‑changing chip.",
-      "Groundbreaking performance.",
+      "La boca está llena de bacterias",
+      "que pueden llegar a enfermarte",
+      "Eliminalas con Nobac",
     ],
     video: highlightFirstVideo,
     videoDuration: 4,
