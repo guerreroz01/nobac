@@ -26,17 +26,17 @@ export const hightlightsSlides = [
   },
   {
     id: 2,
-    textLists: ["Titanium.", "So strong. So light. So Pro."],
+    textLists: [
+      "Magnet design fácil de usar",
+      "puedes colgar tu cepillo",
+      "para secar y esterilizar",
+    ],
     video: highlightSecondVideo,
     videoDuration: 4,
   },
   {
     id: 3,
-    textLists: [
-      "iPhone 15 Pro Max has the",
-      "longest optical zoom in",
-      "iPhone ever. Far out.",
-    ],
+    textLists: ["Fácil de transportar", "para tus viajes o el ", "uso diario"],
     video: highlightThirdVideo,
     videoDuration: 4,
   },
