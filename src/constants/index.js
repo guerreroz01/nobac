@@ -28,7 +28,7 @@ export const hightlightsSlides = [
     id: 2,
     textLists: ["Titanium.", "So strong. So light. So Pro."],
     video: highlightSecondVideo,
-    videoDuration: 5,
+    videoDuration: 4,
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const hightlightsSlides = [
       "iPhone ever. Far out.",
     ],
     video: highlightThirdVideo,
-    videoDuration: 2,
+    videoDuration: 4,
   },
   {
     id: 4,
