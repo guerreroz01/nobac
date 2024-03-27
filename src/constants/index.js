@@ -36,13 +36,13 @@ export const hightlightsSlides = [
   },
   {
     id: 3,
-    textLists: ["Fácil de transportar", "para tus viajes o el ", "uso diario"],
+    textLists: ["Recargable USB", "2 horas de carga = ", "1 mes de uso"],
     video: highlightThirdVideo,
     videoDuration: 4,
   },
   {
     id: 4,
-    textLists: ["All-new Action button.", "What will yours do?."],
+    textLists: ["Fácil de transportar", "para tus viajes o el ", "uso diario"],
     video: highlightFourthVideo,
     videoDuration: 3.63,
   },

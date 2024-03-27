@@ -7,7 +7,7 @@ import nhv from "../../public/assets/videos/nobac_hero.mp4";
 import smallmv from "../../public/assets/videos/smallHero.mp4";
 import highlightFirstmv from "../../public/assets/videos/cepillo.mp4";
 import highlightSectmv from "../../public/assets/videos/hightlight-sec.mp4";
-import highlightThirdmv from "../../public/assets/videos/hightlight-sec.mp4";
+import highlightThirdmv from "../../public/assets/videos/hightlight-third.mp4";
 import highlightFourthmv from "../../public/assets/videos/hightlight-fourth.mp4";
 import exploremv from "../../public/assets/videos/explore.mp4";
 import framemv from "../../public/assets/videos/frame.mp4";
