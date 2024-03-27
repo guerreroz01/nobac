@@ -22,7 +22,7 @@ export const hightlightsSlides = [
       "UV tipo C",
     ],
     video: highlightFirstVideo,
-    videoDuration: 4,
+    videoDuration: 5,
   },
   {
     id: 2,
@@ -32,19 +32,19 @@ export const hightlightsSlides = [
       "para secar y esterilizar",
     ],
     video: highlightSecondVideo,
-    videoDuration: 4,
+    videoDuration: 5,
   },
   {
     id: 3,
     textLists: ["Recargable USB", "2 horas de carga = ", "1 mes de uso"],
     video: highlightThirdVideo,
-    videoDuration: 4,
+    videoDuration: 5,
   },
   {
     id: 4,
     textLists: ["Fácil de transportar", "para tus viajes o el ", "uso diario"],
     video: highlightFourthVideo,
-    videoDuration: 3.63,
+    videoDuration: 5,
   },
 ];
 
@@ -64,7 +64,7 @@ export const models = [
   {
     id: 3,
     title: "Nobac Color Pink",
-    color: ["#FF6AD2", "#ffffff", "#C9C8C2"],
+    color: ["#FFA4E8", "#ffffff", "#C9C8C2"],
     img: whiteImg,
   },
   {
